@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="kort">
+
+
+        <svg class="figur-lag" viewBox="0 0 600 300" aria-hidden="true">
+            <use class="baggrund" href="./interaktiv-svg-kort.svg#baggrund"></use>
+            <use class="figur" href="./interaktiv-svg-kort.svg#person"></use>
+
+        </svg>
+
+
+    </div>
+    <p id="besked" aria-live="polite">Figuren står ved indgangen.</p>
+    <details name="steder">
+        <summary id="vaelg-indgang">Indgang</summary>
+        <p>Her begynder dit besøg.</p>
+    </details>
+    <details name="steder">
+        <summary id="vaelg-scene">Scene</summary>
+        <p>Her kan du høre musikken.</p>
+    </details>
+    <details name="steder">
+        <summary id="vaelg-cafe">Café</summary>
+        <p>Her kan du holde en pause.</p>
+    </details>
+
+    <script src="javascripts.js"></script>
+</body>
+
+</html>
